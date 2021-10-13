@@ -1,0 +1,54 @@
+@import 'variables';
+
+.container{
+    text-align: center;
+}
+
+main{
+    height: 100vh;
+}
+
+h1{
+    padding: 1rem;
+}
+
+.myForm{
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #343A40;
+    color: white;
+}
+
+.tour-list{
+
+}
+
+.tour-item{
+    max-width: 20%;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tour__img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.tour__name{
+    font-size: 1em;
+    color: black;
+    white-space: nowrap;
+}
+
+.tour__price{
+    font-size: .8em;
+    color: grey;
+
+}

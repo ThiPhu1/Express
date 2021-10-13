@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Available Tours</h1>
+    <ul class="tour-list d-flex flex-wrap justify-content-center" style="list-style-type: none;">
+    {{#each tours}}
+        <li class="tour-item">
+            <img class="tour__img" src={{this.img}} alt="">
+            <div class="tour__name">{{this.name}}</div>
+            <div class="tour__price">{{this.price}}$</div>
+        </li>
+    {{/each}}
+    </ul>
+
+</div>
+
+<ul>
+  {{#mytours tours}}
+    <li>
+      {{{name}}} - {{price}}
+    </li>
+  {{/mytours}}
+</ul>
